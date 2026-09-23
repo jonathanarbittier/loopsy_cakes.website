@@ -172,7 +172,7 @@ h2 em { color: var(--pink); font-weight: 400; }
   .hero-photo { aspect-ratio: .78; }
   .hero-photo-wedding { grid-column: 1; grid-row: 1; }
   .hero-photo-moon { grid-column: 2; grid-row: 1; margin-top: 0; }
-  .hero-photo-graduation { grid-column: 1 / -1; grid-row: 2; width: calc((100% - 12px) / 2); margin: 0; justify-self: center; }
+  .hero-photo-graduation { display: none; }
   .intro-band { min-height: 62px; gap: 8px 14px; padding: 15px 18px; font-size: 13px; }
   .intro-heart { font-size: 17px; }
   .section { padding: 68px 22px; }
