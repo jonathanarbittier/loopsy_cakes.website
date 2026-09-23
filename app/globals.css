@@ -57,8 +57,6 @@ h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; lette
 .hero-collage { width: min(100%, 1040px); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: clamp(14px, 2vw, 26px); }
 .hero-photo { margin: 0; position: relative; overflow: hidden; background: #f8f2f1; }
 .hero-photo { width: 100%; aspect-ratio: .78; }
-.hero-photo-moon { margin-top: 34px; }
-.hero-photo-graduation { margin-top: 68px; }
 .hero-photo img { object-fit: cover; object-position: center; }
 .gallery-item img { object-fit: contain; object-position: center; }
 
@@ -174,7 +172,7 @@ h2 em { color: var(--pink); font-weight: 400; }
   .hero-photo { aspect-ratio: .78; }
   .hero-photo-wedding { grid-column: 1; grid-row: 1; }
   .hero-photo-moon { grid-column: 2; grid-row: 1; margin-top: 0; }
-  .hero-photo-graduation { grid-column: 1 / -1; grid-row: 2; width: 100%; margin: 0; justify-self: center; }
+  .hero-photo-graduation { grid-column: 1 / -1; grid-row: 2; width: calc((100% - 12px) / 2); margin: 0; justify-self: center; }
   .intro-band { min-height: 62px; gap: 8px 14px; padding: 15px 18px; font-size: 13px; }
   .intro-heart { font-size: 17px; }
   .section { padding: 68px 22px; }

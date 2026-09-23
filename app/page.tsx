@@ -70,7 +70,7 @@ export default function Home() {
           <a href="#ordering">How to order</a>
         </nav>
         <a className="button button-small header-cta" href="#inquiry">
-          Start an order <span aria-hidden="true">↗</span>
+          Start an order
         </a>
       </header>
 
@@ -80,7 +80,7 @@ export default function Home() {
           <p className="hero-intro">
             From the first idea to the last slice, every Loopsy cake is made with care and quality ingredients.
           </p>
-          <a className="button" href="#inquiry">Tell us what you’re celebrating <span aria-hidden="true">↗</span></a>
+          <a className="button" href="#inquiry">Tell us what you’re celebrating</a>
           <p className="hero-note">Made with love, for every occasion <span aria-hidden="true">♡</span></p>
         </div>
         <div className="hero-photo-field" aria-label="Custom cake photographs">
@@ -120,7 +120,7 @@ export default function Home() {
             </figure>
           ))}
         </div>
-        <a className="text-link" href="#inquiry">Have a cake in mind? Start your request <span aria-hidden="true">↗</span></a>
+        <a className="text-link" href="#inquiry">Have a cake in mind? Start your request</a>
       </section>
 
       <section className="flavor-section" id="flavors" aria-labelledby="flavors-title">
@@ -174,14 +174,14 @@ export default function Home() {
             <p>Pick up your cake or share a delivery address in your request, if delivery is needed.</p>
           </article>
         </div>
-        <a className="button" href="#inquiry">Start your cake request <span aria-hidden="true">↗</span></a>
+        <a className="button" href="#inquiry">Start your cake request</a>
       </section>
 
       <section className="trust-section" aria-labelledby="trust-title">
         <div className="trust-copy">
           <h2 id="trust-title">Beautiful cakes. <em>Carefully made.</em></h2>
           <p>Food safety and your peace of mind matter. Loopsy Cakes is licensed, fully insured, ServSafe certified and allergen certified.</p>
-          <a className="text-link" href="https://www.instagram.com/loopsy_cakes/" target="_blank" rel="noreferrer">See more on Instagram <span aria-hidden="true">↗</span></a>
+          <a className="text-link" href="https://www.instagram.com/loopsy_cakes/" target="_blank" rel="noreferrer">See more on Instagram</a>
         </div>
         <div className="trust-seals" aria-label="Loopsy Cakes credentials">
           <div className="trust-seal"><span aria-hidden="true">✓</span><strong>ServSafe</strong><small>certified</small></div>
@@ -199,7 +199,7 @@ export default function Home() {
             <span className="notice-heart" aria-hidden="true">♡</span>
             <p><strong>Please order at least 7 days in advance.</strong><br />A 50% non refundable deposit is required to confirm your order.</p>
           </div>
-          <p className="spanish-note">¿Prefieres español? <a href="https://www.instagram.com/loopsy_cakes/" target="_blank" rel="noreferrer">Escríbenos por Instagram <span aria-hidden="true">↗</span></a></p>
+          <p className="spanish-note">¿Prefieres español? <a href="https://www.instagram.com/loopsy_cakes/" target="_blank" rel="noreferrer">Escríbenos por Instagram</a></p>
         </div>
 
         <form className="inquiry-form" onSubmit={handleSubmit}>
@@ -219,7 +219,7 @@ export default function Home() {
             <label className="form-wide upload-label">Reference photos <span className="optional-label">Optional</span><input type="file" name="references" accept="image/*" multiple onChange={(event) => setFileName(Array.from(event.target.files ?? []).map((file) => file.name).join(", "))} /><span className="upload-help">{fileName || "Add photos that help show the look you have in mind."}</span></label>
           </div>
           <p className="form-preview-note">This preview form is not connected to the bakery yet. It shows the details the final inquiry form can collect.</p>
-          <button className="button form-submit" type="submit">Send cake inquiry <span aria-hidden="true">↗</span></button>
+          <button className="button form-submit" type="submit">Send cake inquiry</button>
           {submitted && <p className="form-success" role="status">Thanks! Your request looks ready. Since this is a demo, it hasn’t been sent to the bakery.</p>}
         </form>
       </section>
@@ -231,8 +231,8 @@ export default function Home() {
         </a>
         <p>Made with love, for every occasion <span aria-hidden="true">♡</span></p>
         <div className="footer-links">
-          <a href="https://www.instagram.com/loopsy_cakes/" target="_blank" rel="noreferrer">Instagram @loopsy_cakes ↗</a>
-          <a href="#inquiry">Order inquiry ↗</a>
+          <a href="https://www.instagram.com/loopsy_cakes/" target="_blank" rel="noreferrer">Instagram @loopsy_cakes</a>
+          <a href="#inquiry">Order inquiry</a>
         </div>
         <small>© {new Date().getFullYear()} Loopsy Cakes</small>
       </footer>
